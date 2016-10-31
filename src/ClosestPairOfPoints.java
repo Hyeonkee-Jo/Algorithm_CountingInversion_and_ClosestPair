@@ -71,7 +71,7 @@ public class ClosestPairOfPoints {
     }
 
     public double closest_Pair(ArrayList<Point> list) {
-        if(list.size() <= 3) {     // if point count <= 3, calculate by bruteForce
+        if(list.size() <= 3) {     // if point count <= 3, calculate by bruteForce.
             return bruteForce(list);
         }
         int mid = list.size()/2;
